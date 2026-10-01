@@ -11,6 +11,6 @@
         }
     }
     $nums = [2,7,11,15];
-    echo twoNum($nums, 9);
+    echo implode(', ', twoNum($nums, 9));
 
 ?>
